@@ -119,10 +119,10 @@ seat_projections_plot <- ggplot(seat_projections, aes(swing, seats)) +
   
   theme(panel.grid = element_blank(),
         panel.border = element_blank(),
-        axis.ticks=element_blank(),
+        axis.ticks = element_blank(),
         axis.title.x = element_text(family = "os", colour = "grey30", margin = margin(t = 10, b = 10)),
         axis.title.y = element_text(family = "os", colour = "grey30", margin = margin(r = 10, l = 10)),
-        legend.position="none",
+        legend.position = "none",
         plot.caption = element_text(family = "os", size = 11, hjust = 0, colour = "grey30", face = "italic"),
         axis.text = element_text(size = 11, family = "os"),
         plot.title = element_text(family = "os", margin = margin(t = 10, b = 10), colour = "grey30", face = "bold"),
