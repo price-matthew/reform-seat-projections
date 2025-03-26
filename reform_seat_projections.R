@@ -1,11 +1,10 @@
 # Loading libraries and data ----------------------------------------------
 
-library(tidyverse)
-library(showtext)
-library(patchwork)
-library(ggbeeswarm)
+library(tidyverse)  # always
+library(showtext)   # for custom font
+library(patchwork)  # for combining multiple ggplot objects into one
 
-font_add_google("Open Sans", family = "os")
+font_add_google("Open Sans", family = "os") # adding a font I like and making it the default
 
 showtext_auto()
 showtext_opts(dpi = 300)
